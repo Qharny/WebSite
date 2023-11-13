@@ -1,0 +1,1874 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>
+        Company || Name
+    </title>
+
+
+    <link href="/site/img/favicon.png" type="image/x-icon" rel="icon" />
+    <link href="/site/img/favicon.png" type="image/x-icon" rel="shortcut icon" />
+    <link rel="stylesheet" href="/site/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/site/css/global.css" />
+    <link rel="stylesheet" href="/site/css/animate.css" />
+
+
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="top-nav-title">
+            <style>
+                .logo-aspect-div {
+                    display: flex;
+                    justify-content: center;
+                    object-fit: contain;
+
+                }
+
+                .logo-aspect-div img {
+                    object-fit: contain;
+                    width: 220px;
+                    /* height: 270px; */
+                    max-height: 101px;
+                    /* aspect-ratio: 4 / 3; */
+                }
+
+                .topbg-color {
+                    background-color: #70380a;
+                }
+
+                .bg-wine {
+                    background-color: #3b4356;
+                }
+
+                .content_area {
+                    color: #fff;
+                    font-size: 18px;
+                }
+
+                .t-icon {
+                    color: #d6d090;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-right: 15px;
+                }
+
+
+                .content_area a {
+                    color: #fff;
+                }
+
+                .text-white {
+                    color: #fff;
+                }
+
+                .text-white a {
+                    color: #fff;
+                }
+
+                .text-white a:hover {
+                    color: #d6d090;
+                }
+
+                .nav-item a {
+                    color: #000 !important;
+                    font-size: 17px;
+                    font-weight: 600;
+                    margin-right: 20px;
+                }
+
+
+                .navbg-color {
+                    background-color: #fff;
+
+                }
+
+
+                .nav-item a:hover {
+                    color: #efcc0b !important;
+                    display: block;
+                }
+
+                .dropdown ul {
+                    padding: 0px;
+                    border: solid 3px #000;
+                }
+
+                .dropdown ul li a {
+                    color: #000 !important;
+                    font-size: 16px !important;
+                    text-transform: none;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding: 12px 15px;
+                    /* margin-top:5px; */
+                }
+
+                .dropdown ul li a:hover {
+                    color: #000 !important;
+                }
+
+                .navbar-wrap {
+                    padding: 0px 0px;
+                }
+
+                nav.navbar.bootsnav {
+                    /* background-color: transparent; */
+                    /* font-family: 'Exo 2', sans-serif; */
+                    /* margin-bottom: 150px; */
+                    border: none;
+                    min-height: auto;
+                    z-index: 999;
+                }
+
+                .nav-item:hover .nav-link {
+                    color: #e7d073 !important;
+                }
+
+                nav.navbar.bootsnav .navbar-collapse {
+                    padding: 0;
+                }
+
+                nav.navbar.bootsnav ul.nav>li>a {
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    padding: 8px 15px 10px;
+                    margin: 0 12px 0 0;
+                    position: relative;
+                    z-index: 1;
+                    transition: all 0.3s ease;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.dropdown>a {
+                    padding: 8px 30px 10px 15px;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.active>a,
+                nav.navbar.bootsnav ul.nav>li.active>a:hover,
+                nav.navbar.bootsnav ul.nav>li>a:hover,
+                nav.navbar.bootsnav ul.nav>li.on>a {
+                    color: #fff;
+                }
+
+                nav.navbar.bootsnav ul.nav>li>a>span:before {
+                    content: '';
+                    background-color: #e7d073;
+                    height: 5px;
+                    width: 20px;
+                    opacity: 1;
+                    transform: translateX(-50%);
+                    position: absolute;
+                    left: 50%;
+                    bottom: -2px;
+                    transition: all 0.3s ease 0s;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.active>a>span:before,
+                nav.navbar.bootsnav ul.nav>li.active>a:hover>span:before,
+                nav.navbar.bootsnav ul.nav>li>a:hover>span:before,
+                nav.navbar.bootsnav ul.nav>li.on>a>span:before {
+                    opacity: 1;
+                    width: 100%;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li a:hover,
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu li a:hover,
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu li a.dropdown-toggle:active,
+                nav.navbar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on>a {
+                    color: #fff !important;
+                    background-color: #e7d073 !important;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
+                    color: #000;
+                    margin: 0 0 0 7px;
+                    position: absolute;
+                    top: 8px;
+                    right: 7px;
+                    transition: all 0.3s;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.dropdown>ul {
+                    opacity: 0;
+                    transform: translateX(-20px) translateY(-40px);
+                    visibility: hidden;
+                    left: 10px;
+                    z-index: -1;
+                    transition: all 0.3s ease 0s;
+                }
+
+                nav.navbar.bootsnav ul.nav>li.dropdown.on>ul {
+                    transform: translateX(-10px) translateY(0);
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                }
+
+                .dropdown-menu.multi-dropdown {
+                    position: absolute;
+                    left: -100% !important;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+                    background-color: transparent;
+                    border: none;
+                    top: 105%;
+                    z-index: 1;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a {
+                    color: #333;
+                    background-color: #fff;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content {
+                    background-color: #fff;
+                    overflow: hidden;
+                    top: 105%;
+                    left: 0;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li {
+                    font-size: 14px;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .menu-col li a {
+                    color: #333;
+                    background-color: transparent;
+                    padding-left: 10px;
+                    transition: all 0.3s ease;
+                }
+
+                nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover,
+                nav.navbar.bootsnav ul.nav li.megamenu-fw>a:focus,
+                nav.navbar.bootsnav ul.nav li.megamenu-fw.on>a {
+                    background-color: transparent !important;
+                }
+
+                nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu {
+                    padding: 0 15px;
+                }
+
+                nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
+                    color: #b5bb04;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    padding: 0 0 5px;
+                    margin: 0 0 5px;
+                    border-bottom: 2px solid #b5bb04;
+                }
+
+                @media only screen and (max-width:990px) {
+                    .dropdown-menu.multi-dropdown {
+                        left: 0 !important;
+                    }
+
+                    nav.navbar.bootsnav .navbar-toggle {
+                        color: #fff;
+                        background: #b5bb04 !important;
+                        padding: 3px 8px;
+                        border-radius: 0;
+                    }
+
+                    nav.navbar.bootsnav.navbar-mobile .navbar-collapse {
+                        background-color: #21213D;
+                    }
+
+                    nav.navbar.bootsnav ul.nav>li {
+                        margin: 0 auto 2px;
+                    }
+
+                    nav.navbar.bootsnav.navbar-mobile ul.nav>li>a {
+                        background-color: #21213D;
+                        text-align: center;
+                        padding: 10px 15px;
+                        margin: 0;
+                        border: none;
+                    }
+
+                    nav.navbar.bootsnav ul.nav>li.dropdown>a {
+                        padding: 10px 10px 10px 28px;
+                    }
+
+                    nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:before {
+                        color: #fff;
+                    }
+
+                    nav.navbar.bootsnav ul.nav>li.dropdown>ul {
+                        left: -5px;
+                    }
+
+                    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu {
+                        margin: 0 0 -1px 0 !important;
+                        z-index: 1;
+                    }
+
+                    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu>li>a {
+                        color: #333;
+                        padding-left: 10px;
+                        border: none;
+                    }
+
+                    nav.navbar.bootsnav .dropdown-menu {
+                        z-index: 0;
+                    }
+
+                    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
+                        color: #fff;
+                        font-size: 24px;
+                        font-weight: normal;
+                    }
+
+                    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .content {
+                        border: none;
+                    }
+
+                    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .col-menu.on .title {
+                        font-weight: 600;
+                    }
+
+                    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .col-menu li a {
+                        color: #333;
+                        background-color: #fff;
+                        border: none;
+                        margin-bottom: 0;
+                    }
+                }
+
+                /* Responsive - Smaller Screen */
+                @media screen and (max-width: 640px) {
+                    .logo-aspect-div img {
+                        object-fit: contain;
+                        width: 100px;
+                        /* height: 270px; */
+                        max-height: 101px;
+                        /* aspect-ratio: 4 / 3; */
+                    }
+
+                    .navbar-toggler {
+                        font-size: 9px !important;
+                    }
+
+                    .content_area {
+                        color: #fff;
+                        font-size: 11px;
+                        text-align: inline;
+                        float: left;
+                    }
+
+                    .navbar-dark .navbar-toggler {
+                        background-color: #000 !important;
+                        margin-right: 20px;
+                    }
+
+                    .navbar-nav {
+                        padding-left: 20px !important;
+                    }
+
+                }
+
+                /* Responsive - Big screens */
+                @media screen and (min-width: 640px) {}
+            </style>
+
+
+
+            <script type="text/javascript">
+                /// some script
+
+                // jquery ready start
+                document.addEventListener("DOMContentLoaded", function () {
+                    window.addEventListener('scroll', function () {
+                        if (window.scrollY > 190) {
+                            document.getElementById('navbar_top').classList.add('fixed-top');
+                            // add padding top to show content behind navbar
+                            navbar_height = document.querySelector('.navbar').offsetHeight;
+                            document.body.style.paddingTop = navbar_height + 'px';
+                        } else {
+                            document.getElementById('navbar_top').classList.remove('fixed-top');
+                            // remove padding top from body
+                            document.body.style.paddingTop = '0';
+                        }
+                    });
+                });
+
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    // make it as accordion for smaller screens
+                    if (window.innerWidth > 992) {
+
+                        document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
+
+                            everyitem.addEventListener('mouseover', function (e) {
+
+                                let el_link = this.querySelector('a[data-bs-toggle]');
+
+                                if (el_link != null) {
+                                    let nextEl = el_link.nextElementSibling;
+                                    el_link.classList.add('show');
+                                    nextEl.classList.add('show');
+                                }
+
+                            });
+                            everyitem.addEventListener('mouseleave', function (e) {
+                                let el_link = this.querySelector('a[data-bs-toggle]');
+
+                                if (el_link != null) {
+                                    let nextEl = el_link.nextElementSibling;
+                                    el_link.classList.remove('show');
+                                    nextEl.classList.remove('show');
+                                }
+
+
+                            })
+                        });
+
+                    }
+                    // end if innerWidth
+                });
+                // DOMContentLoaded  end
+
+
+                $('ul.navbar-nav li.dropdown').hover(function () {
+                    $(this).find('.dropdown').stop(true, true).delay(200).fadeIn(500);
+                }, function () {
+                    $(this).find('.dropdown').stop(true, true).delay(200).fadeOut(500);
+                });
+
+
+
+            </script>
+
+
+            <header>
+
+
+                <div class="topbg-color">
+                    <div class="container-fluid">
+                        <div class="row py-3">
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
+                                <div class="content_area mx-md-4 text-white">
+                                    <div class=""><i class="t-icon bi bi-envelope"></i> info@companyname.com</div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
+                                <div class="content_area d-flex justify-content-center text-white">
+                                    <div class=""><i class="t-icon bi bi-phone"></i> (0) 20 345 2834 </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
+                                <div class="content_area d-flex justify-content-end mx-md-5 move_right ">
+                                    <div class="text-white">
+                                        <strong><a target="_blank" href="#"><span style="font-size: 17px;"><i
+                                                        class="bi bi-facebook"></i></span></a></strong>&nbsp;&nbsp;&nbsp;
+                                        <strong><a target="_blank" href="#"><span style="font-size: 17px;"><i
+                                                        class="bi bi-instagram"></i></i></span></a></strong>&nbsp;&nbsp;&nbsp;
+                                        <strong><a target="_blank" href="#"><span style="font-size: 17px;"><i
+                                                        class="bi bi-linkedin"></i></span></a></strong>&nbsp;&nbsp;&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="navbar-wrap bg-wine">
+                    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark navbg-color bootsnav">
+
+                        <div class="logo-aspect-div mx-3">
+                            <a href="/site" class="navbar-brand"><img src="/site/img/2023-05-04-165426logo_qc.png"
+                                    alt="" /></a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item">
+                                    <a href="/site" class="nav-link">Home</a>
+                                </li>
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About Us </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a href="/site/about-us/who-we-are" class="dropdown-item">About
+                                                Us</a> </li>
+                                        <li><a href="/site/about-us/board-of-directors" class="dropdown-item">Board of Directors</a></li>
+                                        <li><a href="/site/about-us/about-us-3-column" class="dropdown-item">Management Team</a> </li>
+                                        <!-- <li><a href="/site/about-us/our-core-values" class="dropdown-item" style=";">Our
+                                                Core Values</a> </li>
+                                        <li><a href="/site/about-us/our-shareholders" class="dropdown-item"
+                                                style=";">Our Shareholders</a> </li>
+                                        <li><a href="/site/about-us/ceo-message" class="dropdown-item" style=";">CEO
+                                                Message</a> </li> -->
+                                        <li><a href="/site/about-us/ceo-message" class="dropdown-item">Gallery</a> </li>
+
+                                    </ul>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="/site/investment" class="nav-link">Vacancy</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="/site/contact-us" class="nav-link">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+
+            </header>
+        </div>
+    </nav>
+
+    <!-- <main class="mains"> -->
+    <div id="Container">
+        <style>
+            .carousel-control-prev {
+                left: 0;
+                z-index: 999;
+            }
+
+            .carousel-control-next,
+            .carousel-control-prev {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 5% !important;
+                padding: 0;
+                color: #fff;
+                text-align: center;
+                background: 0 0;
+                border: 0;
+                opacity: .5;
+                transition: opacity .15s ease;
+            }
+
+            .carousel-indicators {
+                position: absolute;
+                right: 0;
+                bottom: 30px;
+                left: 0;
+                z-index: 15;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-pack: center;
+                justify-content: center;
+                padding-left: 0;
+                margin-right: 15%;
+                margin-left: 15%;
+                list-style: none;
+            }
+
+            .carousel-item {
+                height: 80vh;
+                min-height: 300px;
+            }
+
+            .carousel-caption {
+                top: 120px;
+
+            }
+
+            .carousel-caption h5 {
+                font-size: 50px;
+                font-weight: 550;
+                line-height: 55px !important;
+                margin-bottom: 20px;
+            }
+
+            .carousel-caption p {
+                font-size: 20px;
+                line-height: 1.9;
+                margin-bottom: 30px;
+            }
+
+            .carousel-caption a {
+                text-transform: none;
+                text-decoration: none;
+                background: #fff;
+                padding: 10px 30px;
+                color: #000;
+                margin-top: 20px !important;
+                text-align: center !important;
+            }
+
+            .showcase {
+                position: relative;
+                background-size: cover;
+            }
+
+            .bg-image {
+                background: black;
+                opacity: 0.8;
+            }
+
+            .banner-bg {
+                background: black;
+            }
+
+
+            .banner-bg img {
+                height: auto !important;
+                max-height: 520px !important;
+            }
+
+
+            .button {
+                width: 170px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                color: #000;
+                text-transform: uppercase;
+                font-weight: 600;
+                cursor: pointer;
+                display: inline-block;
+            }
+
+            .button-2 {
+                color: #000;
+                border: 3px solid #458318;
+                background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
+                background-image: linear-gradient(30deg, #fff 50%, transparent 50%);
+                background-size: 500px;
+                background-repeat: no-repeat;
+                background-position: 0%;
+                -webkit-transition: background 300ms ease-in-out;
+                transition: background 300ms ease-in-out;
+            }
+
+            .button-2:hover {
+                background-position: 100%;
+                color: #fff;
+                background-color: #458318;
+            }
+
+
+
+            /*************  Smaller Screen ***********/
+            @media screen and (max-width: 640px) {
+                .carousel-item {
+                    height: 10vh;
+                    min-height: 200px;
+                }
+
+                .carousel-item img {
+                    height: auto !important;
+                    max-height: auto !important;
+                }
+
+                .carousel-caption {
+                    top: 20px;
+
+                }
+
+                .carousel-caption h5 {
+                    font-size: 20px;
+                    /* text-transform: uppercase;
+	letter-spacing: 2px; 
+	margin-top: 25px;*/
+                    font-weight: 550;
+                    line-height: 25px !important;
+                    margin-bottom: 10px;
+                }
+
+                .carousel-caption a {
+                    text-transform: none;
+                    text-decoration: none;
+                    background: #fff;
+                    padding: 10px 10px;
+                    font-size: 11px;
+                    color: #000;
+                    margin-top: -25px !important;
+                }
+
+
+                .bg-img-title {
+                    z-index: 999;
+                    top: 40px;
+                    left: 0;
+                    right: 0;
+                }
+
+                .banner-bg {
+                    background: black;
+                    height: auto;
+                    /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+                    /* opacity: 0.3; */
+                }
+
+
+
+
+            }
+
+            /*************  Big Screen ***********/
+            @media screen and (min-width: 640px) {}
+        </style>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+
+        <div id="carouselExampleCaptions" class="carousel  slide carousel-fade banner-bg" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+
+            </div>
+
+            <div class="carousel-inner banner-bg">
+
+
+                <div class="carousel-item active">
+                    <a href="">
+                        <img src="/site/img/2023-04-25-144504slide01.jpg" class="img-fluid d-block bg-image w-100"
+                            alt="Who We Are">
+                    </a>
+
+                    <a href="">
+                        <div class="carousel-caption">
+                            <h5 class="lh-sm animated fadeInUp slow" style="animation-delay: 1s; color:#fff;">Who We Are
+                            </h5>
+                            <p class="animated fadeInUp slow d-none d-md-block lh-base"
+                                style="animation-delay: 1s; color:#fff;">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, vitae?
+                            </p>
+                            <span class="button button-2 animated fadeInUp slow">Learn More</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="carousel-item ">
+                    <a href="#">
+                        <img src="/site/img/2023-04-25-160501iacf2.jpg" class="img-fluid d-block bg-image w-100"
+                            alt="Our Mission">
+                    </a>
+
+                    <a href="#">
+                        <div class="carousel-caption">
+                            <h5 class="lh-sm animated fadeInUp slow" style="animation-delay: 1s; color:#fff;">Our
+                                Mission</h5>
+                            <p class="animated fadeInUp slow d-none d-md-block lh-base"
+                                style="animation-delay: 1s; color:#fff;">
+                                To provide convenient and ‘quick credit’ service to small and medium businesses </p>
+                            <span class="button button-2 animated fadeInUp slow">Learn More</span>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="carousel-item ">
+                    <a href="#">
+                        <img src="/site/img/2023-05-04-170632iacf3.jpg" class="img-fluid d-block bg-image w-100"
+                            alt="What we do not do">
+                    </a>
+
+                    <a href="#">
+                        <div class="carousel-caption">
+                            <h5 class="lh-sm animated fadeInUp slow" style="animation-delay: 1s; color:#fff;">What we do
+                                not do</h5>
+                            <p class="animated fadeInUp slow d-none d-md-block lh-base"
+                                style="animation-delay: 1s; color:#fff;">
+                                We do not take any form of deposit from you </p>
+                            <span class="button button-2 animated fadeInUp slow">Learn More</span>
+                        </div>
+                    </a>
+                </div>
+
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span id="control" class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span id="control" class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </button>
+
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script>
+        <style>
+            .aspect-div-1-col {
+                width: 100%;
+                /*height: 200px; */
+                aspect-ratio: 4 / 3;
+                /*----- three column --- */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                object-fit: contain;
+                overflow: hidden;
+                /* background: #f00; */
+
+            }
+
+            .aspect-div-1-col img {
+                object-fit: contain;
+                width: 560px;
+                /* height: 270px; */
+                max-height: 420px;
+            }
+
+
+            .otherDetails {
+                display: block;
+                height: 80px;
+                width: 100%;
+            }
+
+            /* To set icon at the right side of the div*/
+            .icon {
+                margin-right: 30px;
+                float: left;
+            }
+
+            .icon_back {
+                background-color: #000;
+                /* padding:7px;
+                display:block; */
+                font-size: 15px;
+                background-color: #000;
+                padding: 7px 10px;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+
+            .title-container {
+                height: 95px;
+            }
+
+            .content-container {
+                height: 80px;
+            }
+
+
+
+
+
+            /* Responsive - Smaller Screen */
+            @media screen and (max-width: 640px) {
+                .aspect-div-1-col img {
+                    object-fit: contain;
+                    width: 230px;
+                    /* height: 270px; */
+                    max-height: 420px;
+                }
+
+                .title-container {
+                    height: 65px;
+                }
+
+                .content-container {
+                    height: 80px;
+                }
+
+            }
+
+
+
+
+            /* Responsive - Smaller Smaller Screen */
+            @media screen and (max-width: 340px) {
+                .aspect-div-1-col img {
+                    object-fit: contain;
+                    width: 120px;
+                    /* height: 270px; */
+                    max-height: 120px;
+                }
+
+                .title-container {
+                    height: 65px;
+                }
+
+                .content-container {
+                    height: 80px;
+                }
+
+
+            }
+
+
+
+            /* Responsive - Big screens */
+            @media screen and (min-width: 640px) {}
+        </style>
+
+        <div class="container my-5">
+
+            <!-- Page Title -->
+            <div class="text-center py-3">
+                <!-- <a href="<//?= $this->Url->build(['controller' => $menuDetails->slug, 'action' =>'index']) ?>">
+                <h1 class="fw-bold lh-sm display-4"><//?= $menuDetails->name ?></h1>
+            </a> -->
+                <h1 class="fw-bold lh-sm display-4 reveal fade-top">CEO Message</h1>
+            </div>
+            <!-- Page Title Ends Here -->
+
+            <div class="row">
+
+                <!-- Bootstrap Break Points -->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 mb-3">
+
+                    <!-- Content Image -->
+                    <div class="aspect-div-1-col bg-light reveal fade-left">
+                        <div class="">
+                            <img src="/site/img/2023-04-25-150854romeo-ceo.png" class="img-responsive img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!-- Content Image Ends Here -->
+
+                </div>
+                <!-- Break Point Ends Here -->
+
+
+                <!-- Start Other Details -->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 mb-3">
+                    <!-- Content Title -->
+                    <div class="">
+                        <h1 class="fw-bold lh-sm reveal fade-right">
+                            Message from CEO </h1>
+                    </div>
+                    <!-- Content Title Ends Here -->
+
+                    <!-- Contents -->
+                    <div class="mt-4 reveal fade-right">
+                        <p class="lh-base fs-6">
+                        <p>10 years and counting, we are excited to serve the average Ghanaian businessman and
+                            businesswoman by providing them with our loan facility to grow their businesses and improve
+                            their livelihoods.</p>
+
+                        <p>Welcome to Quick Credit and Investment Micro-Credit Limited, your best micro-credit
+                            institution of choice here in Ghana.</p>
+
+                        <p>We look forward to doing business with you.</p>
+                        </p>
+                    </div>
+                    <!-- Contents Ends Here -->
+
+
+                    <!-- Other Details -->
+
+
+                    <!-- Contents Button -->
+                    <div class="mb-3 reveal fade-bottom">
+                        <a href="/site/home/details/1">
+                            <button type="button" class="btn btn-primary">Read More</button>
+                        </a>
+                    </div>
+                    <!-- Contents Button Ends Here -->
+
+
+
+                    <!-- Contents Ends Here -->
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <style>
+            .showcase {
+                position: relative;
+                background-size: cover;
+                z-index: 0;
+            }
+
+            .banner_bg_cta {
+                background: #bcba85;
+                height: 400px;
+                color: #5b310e;
+            }
+
+            .banner_bg_cta img {
+                width: 100%;
+                height: 400px;
+                /* background: #f8f8f8; */
+                align-items: center;
+                justify-content: center;
+                object-fit: auto;
+            }
+
+            .bg-img-title {
+                position: absolute;
+                z-index: 999;
+                top: 80px;
+                width: 70%;
+                margin: 0px auto;
+                left: 0;
+                right: 0;
+            }
+
+            .button {
+                width: 170px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                color: #000;
+                text-transform: uppercase;
+                font-weight: 600;
+                cursor: pointer;
+                display: inline-block;
+            }
+
+            .button-2 {
+                color: #000;
+                border: 3px solid #067845;
+                background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
+                background-image: linear-gradient(30deg, #fff 50%, transparent 50%);
+                background-size: 500px;
+                background-repeat: no-repeat;
+                background-position: 0%;
+                -webkit-transition: background 300ms ease-in-out;
+                transition: background 300ms ease-in-out;
+            }
+
+            .button-2:hover {
+                background-position: 100%;
+                color: #fff;
+                background-color: #067845;
+            }
+
+
+            /*************  Smaller Screen ***********/
+            @media screen and (max-width: 640px) {
+                .sm-title-text {
+                    font-size: 30px !important;
+                }
+
+                .hide_sm {
+                    display: none !important;
+                }
+
+                .button {
+                    width: 170px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    color: #000;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    cursor: pointer;
+                    display: inline-block;
+                }
+
+                .bg-img-title {
+                    z-index: 999;
+                    top: 40px;
+                    left: 0;
+                    right: 0;
+                }
+
+                .banner_bg_cta {
+                    background: #bcba85;
+                    height: 200px;
+                    /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+                    /* opacity: 0.3; */
+                }
+
+                .banner_bg_cta img {
+                    width: 100%;
+                    height: 200px;
+                    /* background: #f8f8f8; */
+                    align-items: center;
+                    justify-content: center;
+                    object-fit: auto;
+                }
+
+            }
+
+            /*************  Big Screen ***********/
+            @media screen and (min-width: 640px) {}
+        </style>
+
+        <div class="banner_bg_cta">
+
+            <div class="showcase">
+                <div class="bg-img-title text-center justify-content-center pt-2">
+
+                    <h1 class="display-6 fw-bold sm-title-text px-2">License</h1>
+                    <h5 class="px-5 lh-base my-4 hide_sm">
+                        <p>We are licensed by Bank of Ghana to operate as a Lending Institution under the Non-Bank
+                            Financial Institutions (NBFI) Act.
+                        </p>
+                    </h5>
+
+
+                    <!-- Contents Button -->
+                    <div class="mt-5">
+                        <a href="/site/home/details/17" class="button button-2">
+                            Read More
+                        </a>
+
+                    </div>
+                    <!-- Contents Button Ends Here -->
+
+
+                </div>
+
+
+                <img src="/site/img/2023-05-04-180256qct-2.jpg" class="bg-image img-fluid" alt="">
+
+
+            </div>
+
+
+
+
+
+        </div>
+        <style>
+            .aspect-div {
+                width: 100%;
+                /*height: 200px; */
+                aspect-ratio: 4 / 3;
+                /*----- three column --- */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                object-fit: contain;
+                overflow: hidden;
+                /* background: #f00; */
+
+            }
+
+            .aspect-div img {
+                object-fit: contain;
+                width: 240px;
+                /* height: 270px; */
+                max-height: 200px;
+            }
+
+            .title-container {
+                height: 55px !important;
+            }
+
+            .content-container {
+                height: 80px;
+            }
+
+
+            .bgcolor {
+                background-color: #eaeaea;
+                color: #000;
+                padding-top: 30px;
+            }
+
+
+
+            /* Responsive - Smaller Screen */
+            @media screen and (max-width: 640px) {
+
+                .title-container {
+                    height: 95px;
+                }
+
+                .content-container {
+                    height: 80px;
+                }
+
+            }
+
+            /* Responsive - Big screens */
+            @media screen and (min-width: 640px) {}
+        </style>
+
+
+
+        <div class="container-fluid gx-md-3 bgcolor py-5">
+
+            <!-- Page Title -->
+            <div class="text-center py-3 pb-5 reveal fade-left">
+                <h1 class="fw-bold lh-sm display-4">Management Team</h1>
+            </div>
+            <!-- Page Title Ends Here -->
+
+            <div class="row reveal fade-right">
+
+                <!-- Bootstrap Break Points -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-5">
+                    <div class="bg-light py-3">
+                        <!-- Content Image -->
+                        <div class="aspect-div mt-4">
+                            <div class="">
+                                <a href="/site/home/details/4">
+                                    <img src="/site/img/2023-04-25-154613rocircle_.png" class="img-responsive img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Content Image Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container text-center mt-3 px-4">
+                            <a class="text-decoration-none" href="/site/home/details/4">
+                                <h5 class="fw-bold fs-5 lh-sm">
+                                    The Name </h5>
+                            </a>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container mt-3 text-center">
+                            <h6 class="text-secondary font-italic">
+                                (BSC. CA. MBA)  C.E.O </h6>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Contents -->
+                        <div class="content-container mb-3 px-4 text-center">
+                            <p class="lh-base fs-6">
+                                Romeo Seshie is the CEO, Quick Credit &amp;Investment Micro-Credit. Romeo,... </p>
+                        </div>
+                        <!-- Contents Ends Here -->
+
+                        <!-- Contents Button -->
+                        <div class="mb-3 text-center">
+                            <a href="/site/home/details/4">
+                                <button type="button" class="btn btn-primary">Read More</button>
+                            </a>
+                        </div>
+
+
+                        <!-- Contents Button Ends Here -->
+
+                    </div>
+
+                </div>
+                <!-- Break Point Ends Here -->
+
+
+                <!-- Bootstrap Break Points -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-5">
+                    <div class="bg-light py-3">
+                        <!-- Content Image -->
+                        <div class="aspect-div mt-4">
+                            <div class="">
+                                <a href="/site/home/details/5">
+                                    <img src="/site/img/2023-04-25-155122nuhu.png" class="img-responsive img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Content Image Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container text-center mt-3 px-4">
+                            <a class="text-decoration-none" href="/site/home/details/5">
+                                <h5 class="fw-bold fs-5 lh-sm">
+                                    The Name</h5>
+                            </a>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container mt-3 text-center">
+                            <h6 class="text-secondary font-italic">
+                                Head of Finance and Administration </h6>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Contents -->
+                        <div class="content-container mb-3 px-4 text-center">
+                            <p class="lh-base fs-6">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, laboriosam? </p>
+                        </div>
+                        <!-- Contents Ends Here -->
+
+                        <!-- Contents Button -->
+                        <div class="mb-3 text-center">
+                            <a href="/site/home/details/5">
+                                <button type="button" class="btn btn-primary">Read More</button>
+                            </a>
+                        </div>
+
+
+                        <!-- Contents Button Ends Here -->
+
+                    </div>
+
+                </div>
+                <!-- Break Point Ends Here -->
+
+
+                <!-- Bootstrap Break Points -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-5">
+                    <div class="bg-light py-3">
+                        <!-- Content Image -->
+                        <div class="aspect-div mt-4">
+                            <div class="">
+                                <a href="/site/home/details/7">
+                                    <img src="/site/img/2023-04-25-155653vero-man.png" class="img-responsive img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Content Image Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container text-center mt-3 px-4">
+                            <a class="text-decoration-none" href="/site/home/details/7">
+                                <h5 class="fw-bold fs-5 lh-sm">
+                                    The Name  </h5>
+                            </a>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container mt-3 text-center">
+                            <h6 class="text-secondary font-italic">
+                                Head, Brand Communications and Business Development </h6>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Contents -->
+                        <div class="content-container mb-3 px-4 text-center">
+                            <p class="lh-base fs-6">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, eius!</p>
+                        </div>
+                        <!-- Contents Ends Here -->
+
+                        <!-- Contents Button -->
+                        <div class="mb-3 text-center">
+                            <a href="/site/home/details/7">
+                                <button type="button" class="btn btn-primary">Read More</button>
+                            </a>
+                        </div>
+
+
+                        <!-- Contents Button Ends Here -->
+
+                    </div>
+
+                </div>
+                <!-- Break Point Ends Here -->
+
+
+                <!-- Bootstrap Break Points -->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-5">
+                    <div class="bg-light py-3">
+                        <!-- Content Image -->
+                        <div class="aspect-div mt-4">
+                            <div class="">
+                                <a href="/site/home/details/8">
+                                    <img src="/site/img/2023-04-25-155935teamAbi.jpg" class="img-responsive img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Content Image Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container text-center mt-3 px-4">
+                            <a class="text-decoration-none" href="/site/home/details/8">
+                                <h5 class="fw-bold fs-5 lh-sm">
+                                    THE NAME </h5>
+                            </a>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Content Title -->
+                        <div class="pt-1 title-container mt-3 text-center">
+                            <h6 class="text-secondary font-italic">
+                                Head of Human Resource </h6>
+                        </div>
+                        <!-- Content Title Ends Here -->
+
+                        <!-- Contents -->
+                        <div class="content-container mb-3 px-4 text-center">
+                            <p class="lh-base fs-6">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, accusantium? </p>
+                        </div>
+                        <!-- Contents Ends Here -->
+
+                        <!-- Contents Button -->
+                        <div class="mb-3 text-center">
+                            <a href="/site/home/details/8">
+                                <button type="button" class="btn btn-primary">Read More</button>
+                            </a>
+                        </div>
+
+
+                        <!-- Contents Button Ends Here -->
+
+                    </div>
+
+                </div>
+                <!-- Break Point Ends Here -->
+
+
+
+            </div>
+
+        </div>
+
+        <style>
+            .ic-title-container {
+                height: 65px !important;
+            }
+
+            .card {
+                align-items: left;
+                justify-content: center;
+                padding: 10px 25px;
+                position: relative;
+
+
+            }
+
+            .card:hover {
+                background-color: #855f05;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+                color: #fff;
+            }
+
+            .card .fas.fa-arrow-right {
+                position: absolute;
+                bottom: -100px;
+                background-color: #4e9525;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                color: gold;
+                opacity: 0;
+                transform: translateY(50%);
+                transition: all 0.5s ease;
+            }
+
+            .card:hover .fas.fa-arrow-right {
+                bottom: 0px;
+                opacity: 1;
+            }
+
+            .card .fab.fa-envira,
+            .fas.fa-cut,
+            .fas.fa-people-carry {
+                font-size: 60px;
+                /* background-color: #0000000d; */
+                height: 100px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                color: #4e9525;
+            }
+
+            .card .h4 {
+                font-weight: 700;
+            }
+
+            .container .content {
+                max-width: 300px;
+            }
+
+            .container .content .h-6 {
+                color: #4e9525;
+                font-weight: 600;
+            }
+
+            .container .content .btn.btn-primary {
+                padding: 15px;
+                background-color: #4e9525;
+                color: white;
+                border-radius: 0px;
+                border: none;
+                box-shadow: none;
+            }
+
+            .card:hover .fab.fa-envira,
+            .card:hover .fas.fa-cut,
+            .card:hover .fas.fa-people-carry {
+                color: gold;
+                background-color: #4e9525;
+            }
+
+            @media (max-width:990px) {
+                .container .content {
+                    max-width: 100%;
+                }
+            }
+
+            @media (max-width:500px) {
+                /* body {
+        padding: 25px;
+    } */
+
+                .card {
+                    width: 100%;
+                }
+
+                .content {
+                    padding: 25px;
+                }
+            }
+        </style>
+
+
+
+        <div class="container-fluid  pt-5">
+
+            <!-- Page Title -->
+            <div class="text-center py-3 reveal fade-top">
+                <h1 class="fw-bold lh-sm display-4">Our Core Values</h1>
+            </div>
+            <!-- Page Title Ends Here -->
+
+            <div class="">
+                <div class="row mb-md-5 reveal fade-bottom">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
+                        <a href="/site/home/details/18">
+                            <div class="card pb-4 text-center">
+                                <span class="mt-3 mb-4"><i class="bi bi-bounding-box fw-bold"
+                                        style="font-size:30px;"></i></span>
+                                <div class="ic-title-container">
+                                    <h5 class="fw-bold fs-5 lh-sm">Loyalty</h5>
+                                </div>
+                                <p class="lh-base fs-6">
+                                    Loyalty. We work collaboratively with employees and customers to successfully
+                                    overcome challenges and... </p>
+                                <!-- <span class="fas fa-arrow-right"></span> -->
+                                <!-- Contents Button -->
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
+                        <a href="/site/home/details/19">
+                            <div class="card pb-4 text-center">
+                                <span class="mt-3 mb-4"><i class="bi bi-diagram-3 fw-bold"
+                                        style="font-size:30px;"></i></span>
+                                <div class="ic-title-container">
+                                    <h5 class="fw-bold fs-5 lh-sm">Hard work</h5>
+                                </div>
+                                <p class="lh-base fs-6">
+                                    We thrive on the concentrated efforts of smart, dedicated customers and co-workers
+                                    who go the extra mile.... </p>
+                                <!-- Contents Button -->
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
+                        <a href="/site/home/details/20">
+                            <div class="card pb-4 text-center">
+                                <span class="mt-3 mb-4"><i class="bi bi-gem fw-bold" style="font-size:30px;"></i></span>
+                                <div class="ic-title-container">
+                                    <h5 class="fw-bold fs-5 lh-sm">Integrity</h5>
+                                </div>
+                                <p class="lh-base fs-6">
+                                    We recognize integrity and trust as invaluable to our existence. We commit to act at
+                                    all times, with... </p>
+                                <!-- <span class="fas fa-arrow-right"></span> -->
+                                <!-- Contents Button -->
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
+                        <a href="/site/home/details/21">
+                            <div class="card pb-4 text-center">
+                                <span class="mt-3 mb-4"><i class="bi bi-hourglass-split fw-bold"
+                                        style="font-size:30px;"></i></span>
+                                <div class="ic-title-container">
+                                    <h5 class="fw-bold fs-5 lh-sm">Discipline</h5>
+                                </div>
+                                <p class="lh-base fs-6">
+                                    Discipline has always been at the heart of our very existence. We seek to follow
+                                    through with our visions... </p>
+                                <!-- <span class="fas fa-arrow-right"></span> -->
+                                <!-- Contents Button -->
+
+                            </div>
+                        </a>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div> <!-- </main> -->
+
+    <footer>
+        <style>
+            .f-bg-dark {
+                background-color: #eaeaea !important;
+
+            }
+
+            .social a:link {
+                color: #fff;
+            }
+
+            .f-nav-logo {
+                object-fit: contain;
+                width: 260px;
+                max-height: 120px;
+            }
+
+            .f-icon_back {
+                font-size: 18px;
+                font-weight: 900 !important;
+                padding: 5px 8px;
+                color: #000;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+
+            ul.sm {
+                padding-left: 0px;
+                text-align: center;
+                margin-left: -229px;
+            }
+
+            ul.sm>li {
+                display: inline-block;
+                padding: 10px 10px;
+            }
+
+            ul.sm>li:hover {
+                display: block;
+            }
+
+            ul.sm>li>a {
+                color: white;
+                text-decoration: none;
+            }
+
+            footer ul {
+                padding-left: 0;
+                list-style: none;
+                line-height: 12px;
+                color: #000;
+            }
+
+            footer ul li a {
+                color: #000 !important;
+            }
+
+            footer ul li a:hover {
+                color: #dcbd0f !important;
+            }
+
+            .f-s a:link {
+                color: #fff;
+            }
+
+            .f-s a:hover {
+                color: #dcbd0f;
+            }
+        </style>
+
+
+        <!------ Start Top section of the footer element------------>
+        <div class="f-bg-dark">
+            <div class="container text-dark">
+                <div class="row px-1">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-xxl-4 my-4">
+                        <h4 class="">Quick Credit Ghana</h4>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000; height: 2px" />
+                        <br />
+                        <div class="mb-3 bg-light d-inline-block">
+                            <img src="/site/img/2023-05-04-165426logo_qc.png" class="f-nav-logo mb-2" alt="" />
+                        </div>
+                        </h6>
+
+
+
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-xxl-4 ps-5 my-4">
+                        <h4 class="">
+                            About Us </h4>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000; height: 2px" />
+                        <ul class="footer">
+                            <li><a href="/site/about-us/our-shareholders">Our Shareholders</a></li>
+                        </ul>
+                        <ul class="footer">
+                            <li><a href="/site/about-us/our-core-values">Our Core Values</a></li>
+                        </ul>
+                        <ul class="footer">
+                            <li><a href="/site/about-us/about-us-3-column">Management Team</a></li>
+                        </ul>
+                        <ul class="footer">
+                            <li><a href="/site/about-us/ceo-message">CEO Message</a></li>
+                        </ul>
+                        <ul class="footer">
+                            <li><a href="/site/about-us/board-of-directors">Board of Directors</a></li>
+                        </ul>
+                        <ul class="footer">
+                            <li><a href="/site/about-us/who-we-are">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-xxl-4 my-4">
+                        <h4 class="">Contact Us</h4>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000; height: 2px" />
+
+
+                        <div class="row mb-3">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 pt-1">
+                                <span class="f-icon_back" style="background-color:#0d8cca;">
+                                    <i class="bi bi-telephone fs-5 fw-bold" style="color:#fff;"></i>
+                                </span>
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-xl-10 col-xxl-10">
+                                (123) 23 242 2532<br>
+                                (123) 23 242 2532<br>
+                                <br>
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-3">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 pt-2">
+                                <span class="f-icon_back" style="background-color:#0d8cca;">
+                                    <i class="bi bi-envelope fs-5 fw-bold" style="color:#fff;"></i>
+                                </span>
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-xl-10 col-xxl-10">
+                                info@companyname.com<br>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row mb-3">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 pt-2">
+                                <span class="f-icon_back" style="background-color:#0d8cca;">
+                                    <i class="bi bi-geo-alt-fill fs-5 fw-bold" style="color:#fff;"></i>
+                                </span>
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-xl-10 col-xxl-10">
+                                No.14 Ring Road Central,<br>
+                                P.O.Box MP 3427<br>
+                                Accra - Ghana<br>
+                            </div>
+                        </div>
+
+
+
+                        <hr class="my-4" />
+                        <ul class="sm">
+                            <li> Follow: </li>
+                            <li><strong><a target="_blank" href="https://web.facebook.com/quickcreditgh"><span
+                                            style="font-size: 24px;"><i
+                                                class="bi bi-facebook"></i></span></a></strong>&nbsp;&nbsp;</li>
+                            <li><strong><a target="_blank" href="https://www.instagram.com/quickcreditgh"><span
+                                            style="font-size: 24px;"><i
+                                                class="bi bi-instagram"></i></span></a></strong>&nbsp;&nbsp;</li>
+                            <li><strong><a target="_blank" href="https://www.linkedin.com/company/quickcreditgh"><span
+                                            style="font-size: 24px;"><i
+                                                class="bi bi-linkedin"></i></span></a></strong>&nbsp;&nbsp;</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!------ Ends Top section of the footer element------------>
+
+
+
+            <!------ Start Bottom section of the footer element------------>
+            <div class="bg-dark p-3">
+                <div class="container text-white">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
+                            <small>&copy; Copyright
+                                2023 Company Name. All Rights Reserved.
+                            </small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!------ Start Bottom section of the footer element------------>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script src="/site/js/jquery-3.3.1.min.js"></script>
+    <script src="/site/js/bootstrap.min.js"></script>
+    <script src="/site/js/bootstrap.bundle.min.js"></script>
+    <script src="/site/js/animate.js"></script>
+
+
+</body>
+
+</html>
