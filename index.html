@@ -2,16 +2,15 @@
 <html lang="en">
 
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap icon -->
+    <!-- Bootstrap ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <title>
-        Company || Name
-    </title>
+        FBK SUSU ENTERPRISE || Home </title>
 
 
     <link href="/site/img/favicon.png" type="image/x-icon" rel="icon" />
@@ -28,9 +27,15 @@
         <div class="top-nav-title">
             <style>
                 .logo-aspect-div {
+                    /* width: 360px;
+    height: 270px; */
+                    /* aspect-ratio: 16 / 9;  */
+                    /* aspect-ratio: 4 / 3; ----- four column --- */
                     display: flex;
+                    /* align-items: center; */
                     justify-content: center;
                     object-fit: contain;
+                    /* background: #f00; */
 
                 }
 
@@ -43,7 +48,7 @@
                 }
 
                 .topbg-color {
-                    background-color: #70380a;
+                    background-color: #a93300;
                 }
 
                 .bg-wine {
@@ -88,8 +93,13 @@
 
 
                 .navbg-color {
+                    /* background-color: #f0f0f0; */
                     background-color: #fff;
 
+                    /* padding: 30px 0px; */
+                    /* -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
                 }
 
 
@@ -120,6 +130,13 @@
                 .navbar-wrap {
                     padding: 0px 0px;
                 }
+
+
+
+
+
+
+
 
                 nav.navbar.bootsnav {
                     /* background-color: transparent; */
@@ -345,6 +362,10 @@
                     }
                 }
 
+
+
+
+
                 /* Responsive - Smaller Screen */
                 @media screen and (max-width: 640px) {
                     .logo-aspect-div img {
@@ -459,13 +480,26 @@
 
                             <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
                                 <div class="content_area mx-md-4 text-white">
-                                    <div class=""><i class="t-icon bi bi-envelope"></i> info@companyname.com</div>
+                                    <div class=""><i class="t-icon bi bi-envelope"></i> info@fbksusu.com </div>
                                 </div>
                             </div>
 
+                            <!-- <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-xxl-4">
+                        <div class="d-flex justify-content-center px-5 content_area">
+                            <div class="">
+                                </?= isset($contacts->facebook) && $contacts->facebook != null && trim($contacts->facebook) != '' ? '<strong><a target="_blank" href="' . $contacts->facebook . '"><span style="font-size: 17px;"><i class="bi bi-facebook"></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                                </?= isset($contacts->whatsapp) && $contacts->whatsapp != null && trim($contacts->whatsapp) != '' ? '<strong><a target="_blank" href="' . $contacts->whatsapp . '"><span style="font-size: 17px;"><i class="bi bi-whatsapp"></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                                </?= isset($contacts->instagram) && $contacts->instagram != null && trim($contacts->instagram) != '' ? '<strong><a target="_blank" href="' . $contacts->instagram . '"><span style="font-size: 17px;"><i class="bi bi-instagram"></i></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                                </?= isset($contacts->twitter) && $contacts->twitter != null && trim($contacts->twitter) != '' ? '<strong><a target="_blank" href="' . $contacts->twitter . '"><span style="font-size: 17px;"><i class="bi bi-twitter"></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                                </?= isset($contacts->linkedin) && $contacts->linkedin != null && trim($contacts->linkedin) != '' ? '<strong><a target="_blank" href="' . $contacts->linkedin . '"><span style="font-size: 17px;"><i class="bi bi-linkedin"></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                                </?= isset($contacts->youtube) && $contacts->youtube != null && trim($contacts->youtube) != '' ? '<strong><a target="_blank" href="' . $contacts->youtube . '"><span style="font-size: 17px;"><i class="bi bi-youtube"></i></span></a></strong>&nbsp;&nbsp;&nbsp;' : '' ?>
+                            </div>
+                        </div>
+                    </div> -->
+
                             <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4 col-xxl-4">
                                 <div class="content_area d-flex justify-content-center text-white">
-                                    <div class=""><i class="t-icon bi bi-phone"></i> (0) 20 345 2834 </div>
+                                    <div class=""><i class="t-icon bi bi-phone"></i> (0) 123 456 798 </div>
                                 </div>
                             </div>
 
@@ -493,10 +527,12 @@
                 <div class="navbar-wrap bg-wine">
                     <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark navbg-color bootsnav">
 
+
+                        <!-- <a class="navbar-brand" href="#"> -->
                         <div class="logo-aspect-div mx-3">
-                            <a href="/site" class="navbar-brand"><img src="/site/img/logo.jpeg"
-                                    alt="" /></a>
+                            <a href="#" class="navbar-brand"><img src="/site/img/logo.jpeg" style="" alt="" /></a>
                         </div>
+                        <!-- </a> -->
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -508,7 +544,7 @@
                             <ul class="navbar-nav">
 
                                 <li class="nav-item">
-                                    <a href="/site" class="nav-link">Home</a>
+                                    <a href="#" class="nav-link">Home</a>
                                 </li>
 
 
@@ -520,16 +556,25 @@
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a href="/site/about-us/who-we-are" class="dropdown-item">About
                                                 Us</a> </li>
-                                        <li><a href="/site/about-us/board-of-directors" class="dropdown-item">Board of Directors</a></li>
-                                        <li><a href="/site/about-us/about-us-3-column" class="dropdown-item">Management Team</a> </li>
-                                        <li><a href="/site/about-us/ceo-message" class="dropdown-item">Gallery</a> </li>
+                                        <li><a href="/site/about-us/board-of-directors" class="dropdown-item">Board of Directors</a> </li>
+                                        <li><a href="#manage" class="dropdown-item">Management Team</a> </li>
+                                        <li><a href="/site/about-us/our-core-values" class="dropdown-item" >Our
+                                                Core Values</a> </li>
+                                        <li><a href="/site/about-us/our-shareholders" class="dropdown-item">Our Shareholders</a> </li>
+                                        <li><a href="#ceo" class="dropdown-item" >CEO
+                                                Message</a> </li>
 
                                     </ul>
 
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="/site/investment" class="nav-link">Vacancy</a>
+                                    <a href="/site/loans" class="nav-link">What We Don&#039;t Do</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="/site/page/gallery.html" class="nav-link">Gallery</a>
                                 </li>
 
 
@@ -601,6 +646,9 @@
 
             .carousel-caption h5 {
                 font-size: 50px;
+                /* text-transform: uppercase;
+	letter-spacing: 2px; 
+	margin-top: 25px;*/
                 font-weight: 550;
                 line-height: 55px !important;
                 margin-bottom: 20px;
@@ -634,6 +682,8 @@
 
             .banner-bg {
                 background: black;
+                /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+                /* opacity: 0.3; */
             }
 
 
@@ -747,6 +797,7 @@
 
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
+
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
 
@@ -767,7 +818,8 @@
                             </h5>
                             <p class="animated fadeInUp slow d-none d-md-block lh-base"
                                 style="animation-delay: 1s; color:#fff;">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, vitae?
+                                FBK SUSU ENTERPRISE Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+                                error voluptates dicta!
                             </p>
                             <span class="button button-2 animated fadeInUp slow">Learn More</span>
                         </div>
@@ -788,7 +840,7 @@
                                 Mission</h5>
                             <p class="animated fadeInUp slow d-none d-md-block lh-base"
                                 style="animation-delay: 1s; color:#fff;">
-                                To provide convenient and ‘Company Name’ service to small and medium businesses </p>
+                                To provide convenient and ‘FBK SUSU’ service to small and medium businesses </p>
                             <span class="button button-2 animated fadeInUp slow">Learn More</span>
                         </div>
                     </a>
@@ -798,7 +850,7 @@
 
                 <div class="carousel-item ">
                     <a href="#">
-                        <img src="/site/img/img2.jpg" class="img-fluid d-block bg-image w-100"
+                        <img src="/site/img/contract.jpeg" class="img-fluid d-block bg-image w-100"
                             alt="What we do not do">
                     </a>
 
@@ -813,6 +865,9 @@
                         </div>
                     </a>
                 </div>
+
+
+            </div>
 
             <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
@@ -868,7 +923,7 @@
             .icon_back {
                 background-color: #000;
                 /* padding:7px;
-                display:block; */
+    display:block; */
                 font-size: 15px;
                 background-color: #000;
                 padding: 7px 10px;
@@ -937,6 +992,12 @@
             @media screen and (min-width: 640px) {}
         </style>
 
+
+
+
+
+
+
         <div class="container my-5">
 
             <!-- Page Title -->
@@ -944,7 +1005,7 @@
                 <!-- <a href="<//?= $this->Url->build(['controller' => $menuDetails->slug, 'action' =>'index']) ?>">
                 <h1 class="fw-bold lh-sm display-4"><//?= $menuDetails->name ?></h1>
             </a> -->
-                <h1 class="fw-bold lh-sm display-4 reveal fade-top">CEO Message</h1>
+                <h1 class="fw-bold lh-sm display-4 reveal fade-top" id="ceo">CEO Message</h1>
             </div>
             <!-- Page Title Ends Here -->
 
@@ -977,12 +1038,14 @@
                     <!-- Contents -->
                     <div class="mt-4 reveal fade-right">
                         <p class="lh-base fs-6">
+                            <!-- <//?= $content->content ?> -->
+                            <!-- <//?= $this->Text->truncate(strip_tags($content->content),700, ['ellipsis' => '...','exact' => false]) ?> -->
                         <p>10 years and counting, we are excited to serve the average Ghanaian businessman and
                             businesswoman by providing them with our loan facility to grow their businesses and improve
                             their livelihoods.</p>
 
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur possimus sint ab enim eum totam, 
-                            eius molestiae! Nostrum, eum aut. Nulla atque saepe veritatis numquam labore veniam possimus corrupti tenetur.</p>
+                        <p>Welcome to FBK SUSU ENTERPRISE, your best micro-credit institution of choice here in Ghana.
+                        </p>
 
                         <p>We look forward to doing business with you.</p>
                         </p>
@@ -995,7 +1058,7 @@
 
                     <!-- Contents Button -->
                     <div class="mb-3 reveal fade-bottom">
-                        <a href="/site/home/details/1">
+                        <a href="#ceo">
                             <button type="button" class="btn btn-primary">Read More</button>
                         </a>
                     </div>
@@ -1014,8 +1077,6 @@
 
         </div>
 
-
-
         <style>
             .showcase {
                 position: relative;
@@ -1023,10 +1084,17 @@
                 z-index: 0;
             }
 
+            .bg-image {
+                /* background: black;
+  opacity: 0.3; */
+            }
+
             .banner_bg_cta {
                 background: #bcba85;
                 height: 400px;
-                color: #5b310e;
+                color: #a93300;
+                /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+                /* opacity: 0.3; */
             }
 
             .banner_bg_cta img {
@@ -1156,7 +1224,7 @@
                 </div>
 
 
-                <img src="/site/img/2023-05-04-180256qct-2.jpg" class="bg-image img-fluid" alt="">
+                <img src="/site/img/img4.jpg" class="bg-image img-fluid" alt="">
 
 
             </div>
@@ -1240,8 +1308,8 @@
                         <!-- Content Image -->
                         <div class="aspect-div mt-4">
                             <div class="">
-                                <a href="/site/home/details/4">
-                                    <img src="/site/img/2023-04-25-154613rocircle_.png" class="img-responsive img-fluid"
+                                <a href="#">
+                                    <img src="" class="img-responsive img-fluid"
                                         alt="">
                                 </a>
                             </div>
@@ -1250,9 +1318,9 @@
 
                         <!-- Content Title -->
                         <div class="pt-1 title-container text-center mt-3 px-4">
-                            <a class="text-decoration-none" href="/site/home/details/4">
+                            <a class="text-decoration-none" href="#">
                                 <h5 class="fw-bold fs-5 lh-sm">
-                                    The Name </h5>
+                                    The name </h5>
                             </a>
                         </div>
                         <!-- Content Title Ends Here -->
@@ -1260,26 +1328,16 @@
                         <!-- Content Title -->
                         <div class="pt-1 title-container mt-3 text-center">
                             <h6 class="text-secondary font-italic">
-                                (BSC. CA. MBA)  C.E.O </h6>
+                                (BSC. CA. MBA) – C.E.O </h6>
                         </div>
                         <!-- Content Title Ends Here -->
 
                         <!-- Contents -->
                         <div class="content-container mb-3 px-4 text-center">
                             <p class="lh-base fs-6">
-                                Lorem ipsum dolor sit amet... </p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, atque.,... </p>
                         </div>
                         <!-- Contents Ends Here -->
-
-                        <!-- Contents Button -->
-                        <div class="mb-3 text-center">
-                            <a href="/site/home/details/4">
-                                <button type="button" class="btn btn-primary">Read More</button>
-                            </a>
-                        </div>
-
-
-                        <!-- Contents Button Ends Here -->
 
                     </div>
 
@@ -1293,8 +1351,8 @@
                         <!-- Content Image -->
                         <div class="aspect-div mt-4">
                             <div class="">
-                                <a href="/site/home/details/5">
-                                    <img src="/site/img/2023-04-25-155122nuhu.png" class="img-responsive img-fluid"
+                                <a href="#">
+                                    <img src="" class="img-responsive img-fluid"
                                         alt="">
                                 </a>
                             </div>
@@ -1303,9 +1361,9 @@
 
                         <!-- Content Title -->
                         <div class="pt-1 title-container text-center mt-3 px-4">
-                            <a class="text-decoration-none" href="/site/home/details/5">
+                            <a class="text-decoration-none"#">
                                 <h5 class="fw-bold fs-5 lh-sm">
-                                    The Name</h5>
+                                    The name </h5>
                             </a>
                         </div>
                         <!-- Content Title Ends Here -->
@@ -1320,19 +1378,9 @@
                         <!-- Contents -->
                         <div class="content-container mb-3 px-4 text-center">
                             <p class="lh-base fs-6">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, laboriosam? </p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore. </p>
                         </div>
                         <!-- Contents Ends Here -->
-
-                        <!-- Contents Button -->
-                        <div class="mb-3 text-center">
-                            <a href="/site/home/details/5">
-                                <button type="button" class="btn btn-primary">Read More</button>
-                            </a>
-                        </div>
-
-
-                        <!-- Contents Button Ends Here -->
 
                     </div>
 
@@ -1346,8 +1394,8 @@
                         <!-- Content Image -->
                         <div class="aspect-div mt-4">
                             <div class="">
-                                <a href="/site/home/details/7">
-                                    <img src="/site/img/2023-04-25-155653vero-man.png" class="img-responsive img-fluid"
+                                <a href="#">
+                                    <img src="" class="img-responsive img-fluid"
                                         alt="">
                                 </a>
                             </div>
@@ -1356,9 +1404,9 @@
 
                         <!-- Content Title -->
                         <div class="pt-1 title-container text-center mt-3 px-4">
-                            <a class="text-decoration-none" href="/site/home/details/7">
+                            <a class="text-decoration-none" href="#">
                                 <h5 class="fw-bold fs-5 lh-sm">
-                                    The Name  </h5>
+                                    The name </h5>
                             </a>
                         </div>
                         <!-- Content Title Ends Here -->
@@ -1373,19 +1421,10 @@
                         <!-- Contents -->
                         <div class="content-container mb-3 px-4 text-center">
                             <p class="lh-base fs-6">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, eius!</p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, voluptates!... </p>
                         </div>
                         <!-- Contents Ends Here -->
 
-                        <!-- Contents Button -->
-                        <div class="mb-3 text-center">
-                            <a href="/site/home/details/7">
-                                <button type="button" class="btn btn-primary">Read More</button>
-                            </a>
-                        </div>
-
-
-                        <!-- Contents Button Ends Here -->
 
                     </div>
 
@@ -1399,8 +1438,8 @@
                         <!-- Content Image -->
                         <div class="aspect-div mt-4">
                             <div class="">
-                                <a href="/site/home/details/8">
-                                    <img src="/site/img/2023-04-25-155935teamAbi.jpg" class="img-responsive img-fluid"
+                                <a href="#">
+                                    <img src="" class="img-responsive img-fluid"
                                         alt="">
                                 </a>
                             </div>
@@ -1409,9 +1448,9 @@
 
                         <!-- Content Title -->
                         <div class="pt-1 title-container text-center mt-3 px-4">
-                            <a class="text-decoration-none" href="/site/home/details/8">
+                            <a class="text-decoration-none" href="#">
                                 <h5 class="fw-bold fs-5 lh-sm">
-                                    THE NAME </h5>
+                                    Mrs. Abigail Quartey </h5>
                             </a>
                         </div>
                         <!-- Content Title Ends Here -->
@@ -1426,19 +1465,9 @@
                         <!-- Contents -->
                         <div class="content-container mb-3 px-4 text-center">
                             <p class="lh-base fs-6">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, accusantium? </p>
+                                After 10years of working with Barclays Bank (GH), Mrs. Abigail... </p>
                         </div>
                         <!-- Contents Ends Here -->
-
-                        <!-- Contents Button -->
-                        <div class="mb-3 text-center">
-                            <a href="/site/home/details/8">
-                                <button type="button" class="btn btn-primary">Read More</button>
-                            </a>
-                        </div>
-
-
-                        <!-- Contents Button Ends Here -->
 
                     </div>
 
@@ -1450,7 +1479,6 @@
             </div>
 
         </div>
-
         <style>
             .ic-title-container {
                 height: 65px !important;
@@ -1466,7 +1494,7 @@
             }
 
             .card:hover {
-                background-color: #855f05;
+                background-color: #a93300;
                 box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
                 color: #fff;
             }
@@ -1588,7 +1616,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
-                        <a href="/site/home/details/19">
+                        <a href="#">
                             <div class="card pb-4 text-center">
                                 <span class="mt-3 mb-4"><i class="bi bi-diagram-3 fw-bold"
                                         style="font-size:30px;"></i></span>
@@ -1598,6 +1626,7 @@
                                 <p class="lh-base fs-6">
                                     We thrive on the concentrated efforts of smart, dedicated customers and co-workers
                                     who go the extra mile.... </p>
+                                <!-- <span class="fas fa-arrow-right"></span> -->
                                 <!-- Contents Button -->
 
                             </div>
@@ -1606,7 +1635,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
-                        <a href="/site/home/details/20">
+                        <a href="#">
                             <div class="card pb-4 text-center">
                                 <span class="mt-3 mb-4"><i class="bi bi-gem fw-bold" style="font-size:30px;"></i></span>
                                 <div class="ic-title-container">
@@ -1624,7 +1653,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 mb-md-0 mb-5">
-                        <a href="/site/home/details/21">
+                        <a href="#">
                             <div class="card pb-4 text-center">
                                 <span class="mt-3 mb-4"><i class="bi bi-hourglass-split fw-bold"
                                         style="font-size:30px;"></i></span>
@@ -1667,10 +1696,14 @@
             .f-nav-logo {
                 object-fit: contain;
                 width: 260px;
+                /* height: 270px; */
                 max-height: 120px;
             }
 
             .f-icon_back {
+                /*background-color:#dcbd0f;
+     padding:7px;
+    display:block; */
                 font-size: 18px;
                 font-weight: 900 !important;
                 padding: 5px 8px;
@@ -1691,9 +1724,7 @@
                 padding: 10px 10px;
             }
 
-            ul.sm>li:hover {
-                display: block;
-            }
+            ul.sm>li:hover {}
 
             ul.sm>li>a {
                 color: white;
@@ -1712,7 +1743,7 @@
             }
 
             footer ul li a:hover {
-                color: #dcbd0f !important;
+                color: #a93300 !important;
             }
 
             .f-s a:link {
@@ -1720,7 +1751,7 @@
             }
 
             .f-s a:hover {
-                color: #dcbd0f;
+                color: #a93300;
             }
         </style>
 
@@ -1730,15 +1761,20 @@
             <div class="container text-dark">
                 <div class="row px-1">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-xxl-4 my-4">
-                        <h4 class=""><img src="/site/img/logo.jpeg" alt="logo"></h4>
+                        <h4 class="">FBK SUSU ENTERPRISE</h4>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #000; height: 2px" />
                         <br />
                         <div class="mb-3 bg-light d-inline-block">
                             <img src="/site/img/2023-05-04-165426logo_qc.png" class="f-nav-logo mb-2" alt="" />
                         </div>
+                        <!--</?= $siteDescription = $appSettings['SITE-NAME'];?>-->
                         </h6>
-
+                        <!-- </?php foreach ($menus as $menu) { ?>
+                    </?php if ($menu->slug == 'about-us') { ?> -->
+                        <!-- <p class="text-white"><//?= $menu->content?></p> -->
+                        <!-- </?php } ?>
+                </?php } ?> -->
 
 
 
@@ -1756,7 +1792,7 @@
                             <li><a href="/site/about-us/our-core-values">Our Core Values</a></li>
                         </ul>
                         <ul class="footer">
-                            <li><a href="/site/about-us/about-us-3-column">Management Team</a></li>
+                            <li><a href="#manage">Management Team</a></li>
                         </ul>
                         <ul class="footer">
                             <li><a href="/site/about-us/ceo-message">CEO Message</a></li>
@@ -1781,8 +1817,8 @@
                                 </span>
                             </div>
                             <div class="col-xs-10 col-sm-10 col-md-10 col-xl-10 col-xxl-10">
-                                (123) 23 242 2532<br>
-                                (123) 23 242 2532<br>
+                                0302200390<br>
+                                0596920833<br>
                                 <br>
                             </div>
                         </div>
@@ -1795,7 +1831,7 @@
                                 </span>
                             </div>
                             <div class="col-xs-10 col-sm-10 col-md-10 col-xl-10 col-xxl-10">
-                                info@companyname.com<br>
+                                info@fbksusu.com<br>
                                 <br>
                                 <br>
                             </div>
@@ -1821,14 +1857,11 @@
                         <hr class="my-4" />
                         <ul class="sm">
                             <li> Follow: </li>
-                            <li><strong><a target="_blank" href="#"><span
-                                            style="font-size: 24px;"><i
+                            <li><strong><a target="_blank" href="#"><span style="font-size: 24px;"><i
                                                 class="bi bi-facebook"></i></span></a></strong>&nbsp;&nbsp;</li>
-                            <li><strong><a target="_blank" href="#"><span
-                                            style="font-size: 24px;"><i
+                            <li><strong><a target="_blank" href="#"><span style="font-size: 24px;"><i
                                                 class="bi bi-instagram"></i></span></a></strong>&nbsp;&nbsp;</li>
-                            <li><strong><a target="_blank" href="#"><span
-                                            style="font-size: 24px;"><i
+                            <li><strong><a target="_blank" href="#"><span style="font-size: 24px;"><i
                                                 class="bi bi-linkedin"></i></span></a></strong>&nbsp;&nbsp;</li>
                         </ul>
 
@@ -1845,7 +1878,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 d-flex justify-content-center">
                             <small>&copy; Copyright
-                                2023 Company Name. All Rights Reserved.
+                                2023 FBK SUSU ENTERPRISE. All Rights Reserved.
                             </small>
                         </div>
 
